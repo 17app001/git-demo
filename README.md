@@ -155,6 +155,36 @@
 	- git reset --hard ORIG_HEAD 
 	- git reset --hard commit-object
 
+### 綁定遠端的URL
+	- git remote add origin https://github.com/17app001/git-demo.git
+	- git remote -v
+		- 檢視遠端的url
+
+
+### 第一次同步分支
+	- git push -u origin master
+		- git push
+	- git push -u origin dev
+
+### 強制更新
+	- git commit --amend (更新上一條的commit)
+	- git push -f (force)
+	
+
+### 遠端同步近端
+	- git pull 
+
+
+### 新修改反悔
+	- git checkout .
+
+### 完整複製專案
+	- git clone https://github.com/17app001/git-demo.git
+
+###　git remote –v
+	- 檢視遠端url
+
+
 
 ### MARKDOWN
 	- https://www.mdeditor.tw/
