@@ -172,7 +172,11 @@
 	- 顯示目前連結的遠端倉庫
 
 - git push -u origin master
-	- 從本地推送到遠端
+	- 從本地推送到遠端(第一次需要建立遠端的分支名稱)
+
+- git push 
+	- git push -f 
+		- 強制更新到遠端(不管衝突)
 
 - git clone
 	- git clone https://github.com/17app001/git-demo.git
@@ -180,13 +184,16 @@
 	- 本地端新增修正後	
 		- git add .
 		- git commit -m "message"
-		- git push (確保遠端永遠最新)
-	
+		- git push (確保遠端永遠最新)	
 
+- git pull
+	- 從遠端同步到本地端
+		- 開啟專案後的的第一步
 
+- git push --delete origin dev
+	- 刪除遠端分支的方法
 
-
-
+## GIT Respository
 - echo "# git-demo" >> README.md
 - git init
 - git add README.md
