@@ -174,6 +174,15 @@
 - git push -u origin master
 	- 從本地推送到遠端
 
+- git clone
+	- git clone https://github.com/17app001/git-demo.git
+	- 複製專案到本地端
+	- 本地端新增修正後	
+		- git add .
+		- git commit -m "message"
+		- git push (確保遠端永遠最新)
+	
+
 
 
 
